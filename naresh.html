@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>My Portfolio</title>
+    <style>
+   
+        h4 {
+            font-weight: bold;
+        }
+
+        body {
+            font-family: Arial;
+            background-color: gray;
+
+        }
+        li{
+            font-size: 13px;
+        }
+        .footer-title{
+            font-size: 15px;
+            margin-bottom: 20px;
+            text-decoration: solid underline red;
+            text-underline-offset: 10px;
+        }
+        #foot{
+            background-color: rgb(27, 58, 78);
+            padding: 18px;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+
+        }
+        button{
+            background-color: rgb(71, 121, 155);
+            border: none;
+
+        }
+        .bi-grid-3x3-gap:hover{
+            transform: rotate(360deg);
+            transition: 1s;
+            box-shadow: 5px 5px 3px black;
+            border-radius: 200px;
+
+        }
+        .bi-grid-3x3-gap{
+            transform: rotate(0deg);
+            transition: 1s;
+            box-shadow: 5px 5px 3px black;
+        }
+        .bi-triangle-fill:hover{
+            transform: rotate(360deg);
+            transition: 1s;
+            box-shadow: 5px 5px 3px black;  
+            border-radius: 200px;
+
+        }
+        .bi-triangle-fill{
+            transform: rotate(0deg);
+            transition: 1s;
+            box-shadow: 5px 5px 3px black;  
+        }
+        .bi-union:hover{
+            transform: rotate(360deg);
+            transition: 1s;
+            box-shadow: 5px 5px 3px black;  
+            border-radius: 200px;
+
+        }
+        .bi-union{
+            transform: rotate(0deg);
+            transition: 1s;
+            box-shadow: 5px 5px 3px black;  
+        }
+        .bi-easel:hover{
+            transform: rotate(360deg);
+            transition: 1s;
+            box-shadow: 5px 5px 3px black;  
+            border-radius: 200px;
+        }
+        .bi-easel{
+            transform: rotate(0deg);
+            transition: 1s;
+            box-shadow: 3px 3px 3px black;  
+        }
+        p{
+            color: gray;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="d-flex justify-content-between  mt-3 bg-white"
+        style="height: 210px; width:1100px; margin-left: 150px; box-shadow: 50px 50px 120px black;">
+        <div class="ms-4">
+            <img src="nasli.PNG" alt="Loading" height="208px" width="400px">
+        </div>
+        <div class="me-4 mt-4" style="font-size: 21px;">
+            FOLLOW US SOCIAL MEDIA :
+            <div class="mt-4" style="font-size: 25px;" id="icons">
+                <span class="bi bi-facebook p-2 ms-2 me-2 bg-primary text-white rounded rounded-pill" id="icon"></span>
+                <span class="bi bi-envelope p-2 me-2 bg-primary text-white rounded rounded-pill"></span>
+                <span class="bi bi-linkedin p-2 me-2 bg-primary text-white rounded rounded-pill"></span>
+                <span class="bi bi-twitter p-2 me-2 bg-primary text-white rounded rounded-pill"></span>
+                <span class="bi bi-youtube p-2 me-2 bg-primary text-white rounded rounded-pill"></span>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark" style="width:1100px; margin-left: 150px; box-shadow: 50px 50px 120px black;">
+        <ul class="nav nav-tabs p-3" style="font-size: 13px;">
+            <li class="nav-item active"><a href="#home" data-bs-toggle="tab" class="nav-link border-warning"><span class="nav-text">HOME</span> </a></li>
+            <li class="nav-item ms-1"><a href="#all" data-bs-toggle="tab" class="nav-link border-warning">ALL COURSES</a></li>
+            <li class="nav-item ms-1"><a href="#services" data-bs-toggle="tab" class="nav-link border-warning">SERVICES</a></li>
+            <li class="nav-item ms-1"><a href="#software" data-bs-toggle="tab" class="nav-link border-warning">SOFWARETRANING</a></li>
+            <li class="nav-item ms-1"><a href="#projects" data-bs-toggle="tab" class="nav-link border-warning">PROJECTS</a></li>
+            <li class="nav-item ms-1"><a href="#sites" data-bs-toggle="tab" class="nav-link border-warning">IN SITES</a></li>
+            <li class="nav-item ms-1"><a href="#careers" data-bs-toggle="tab" class="nav-link border-warning">CAREERS</a></li>
+            <li class="nav-item ms-1 "><a href="#about" data-bs-toggle="tab" class="nav-link border-warning">ABOUT</a> </li>
+            <li class="nav-item ms-1"><a href="#new" data-bs-toggle="tab" class="nav-link border-warning">NEW BATCHES</a></li>
+            <li class="nav-item ms-1"><a href="#blog" data-bs-toggle="tab" class="nav-link border-warning">BLOG</a></li>
+
+        </ul>
+    </div>
+    <div class="tab-content " style="box-shadow: 15px 15px 30px black;">
+        <div class="tab-pane  fade show" id="home">
+        </div>
+    </div>
+
+    <div style="height:680px; width: 1100px; margin-left: 150px; box-shadow: 50px 0px 120px black;" class="bg-white">
+        <div class=" carousel slide" id="banner" data-bs-ride="carousel">
+            <div class=" carousel-inner carousel-dark slide ">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="na1.jpg" alt="">
+                </div>
+                <div class="carousel-item " data-bs-interval="1000"> 
+                    <img src="na2.jpg" alt="">
+                </div>
+                <div class="carousel-item " data-bs-interval="1000">
+                    <img src="na3.jpg" alt="">
+                </div>
+                <div class="carousel-item " data-bs-interval="1000">
+                    <img src="na4.jpg" alt="">
+                </div>
+            </div>
+            <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+                <span class=" carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="bg-white flex-wrap" style="height: 1558px; width: 1100px; margin-left: 150px; margin-bottom:400px ; box-shadow: 50px 50px 120px black;">
+        <div>
+            <h3 style="font-family: Arial; font-weight:bold" class="ms-4 ">Welcome To NareshIT! How can we help you..
+            </h3>
+            <p style="font-size: 12px;" class="ms-4 mt-4 ">It is a long established fact that a student will be distracted by
+                the number of <span class="text-danger text-decoration-underline">software training institutes</span>
+                when looking for the best classroom and <span class="text-danger text-decoration-underline" style="text-decoration: dotted ;">online training in hyderabad</span> and chennai.</p>
+        </div>
+        <div class="d-flex ms-4 flex-wrap justify-content-between" style="margin-top: 80px;">
+            <div class="">
+                <div class="bi bi-grid-3x3-gap bg-white mb-4 text-danger text-center  p-4"
+                    style="margin-left: 60px; font-size: 40px; width: 130px; border: 40px;"></div>
+                <div class=" text-center" style="width: 250px;">
+                    <h4>SoftwareTraining</h4>
+                    <p class="mt-4" style="font-size: 13px;">Naresh i Technologies is No. 1 Leading training Institute
+                        in hyderabad offering classroom training on Java, J2EE, .NET and Oracle.</p>
+                </div>
+            </div>
+            <div class="">
+                <div class="bi bi-triangle-fill bg-white mb-4 text-center text-danger  p-4"
+                    style="margin-left: 60px; font-size: 40px; width: 130px; border: 40px;"></div>
+                <div class=" text-center" style="width: 250px;">
+                    <h4>Project Training</h4>
+                    <p class="mt-4" style="font-size: 13px;">Project Training Get Trained from anywhere with an Internet
+                        connection. Instructors teach students in a classroom and you can attend these courses online in
+                        real-time also. Includes demonstrations & hands-on lab sessions.</p>
+                </div>
+            </div>
+            <div class="">
+                <div class="bi bi-union bg-white mb-4 text-center text-danger   p-4"
+                    style="margin-left: 60px; font-size: 40px; width: 130px; border: 40px;"></div>
+                <div class=" text-center" style="width: 250px;">
+                    <h4>Weekend Workshops</h4>
+                    <p class="mt-4" style="font-size: 13px;">Your team trained at your company premises. Learn content
+                        tailored to match your organization specific needs. You set the date & time and we deliver it.
+                    </p>
+                </div>
+            </div>
+            <div class="">
+                <div class="bi bi-easel bg-white mb-4 text-center text-danger p-4"
+                    style="margin-left: 60px; font-size: 40px; width: 130px; border: 40px;"></div>
+                <div class=" text-center" style="width: 250px;">
+                    <h4>IT Consulting</h4>
+                    <p class="mt-4" style="font-size: 13px;">Naresh i Technologies is No.1 leading training institute in
+                        hyderabad offering weekend training in Java, J2EE, .NET and Oracle.</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center " style="margin-top: 80px;">
+            <div class="">
+                <div class="bi bi-grid-3x3-gap bg-white mb-4 text-danger text-center p-4"
+                    style="margin-left: 80px; font-size: 40px; width: 130px; border: 40px;"></div>
+                <div class=" text-center" style="width: 330px;">
+                    <h4>Classroom Training</h4>
+                    <p class="mt-4" style="font-size: 13px;">We have the best faculty with excellent Lab Infrastructure
+                        along with detailed course material.</p>
+                </div>
+            </div>
+            <div class=" ms-4">
+                <div class="bi bi-triangle-fill bg-white mb-4 text-danger text-center p-4"
+                    style="margin-left: 80px; font-size: 40px; width: 130px; border: 40px;"></div>
+                <div class=" text-center" style="width: 330px;">
+                    <h4>Online Training</h4>
+                    <p class="mt-4" style="font-size: 13px;">We offer most of the course online with virtual classroom
+                        to serve the IT aspirants.</p>
+                </div>
+            </div>
+            <div class=" ms-4">
+                <div class="bi bi-union bg-white mb-4 text-center text-danger  p-4"
+                    style="margin-left: 80px; font-size: 40px; width: 130px; border: 40px;"></div>
+                <div class=" text-center" style="width: 330px;">
+                    <h4>Corporate Training</h4>
+                    <p class="mt-4" style="font-size: 13px;">We have experienced faculty to train professionals for
+                        improving their technology skills to day to day needs.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="mb-4" style="margin-top: 50px; margin-left: 30px; font-weight: bold;">
+                FEATURED SOFTWARE COURSES
+            </div>
+            <div class="carousel slide" id="banner1" data-bs-ride="carousel" style="margin-left: 25px;">
+                <div class="carousel-inner carousel-dark">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="sn1.PNG" alt="">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="1000">
+                        <img src="sn2.PNG" alt="">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="1000">
+                        <img src="sn3.PNG" alt="">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="1000">
+                        <img src="sn4.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer d-flex justify-content-between p-4  p-lg-2 bg-dark text-secondary" style="margin-top: 100px;">
+            <div class="ms-2" style="width: 260px;">
+            <div class="footer-title">ABOUT NARESH I TECHNOLOGIES</div>
+            <ul class=" list-unstyled">
+                <li>Training Institute Overview Naresh i</li>
+                <li>Technologies Naresh i Technologies</li>
+                <li>(Pronounced: NareshIT) is a leading software</li>
+                <li>training institute providing Software Training,</li>
+                <li>Project Guidance, IT Consulting and</li>
+                <li>Technology Workshops. Using our enhanced</li>
+                <li>global software training delivery methodology,</li>       
+            </ul>
+        </div>
+        <div class="ms-2">
+            <div class="footer-title" style="margin-left: 18px;">INTERVIEW QUESTIONS</div>
+            <ul style="font-weight: bold;" >
+                <li>DevOps Interview Questions</li>
+                <li>AngularJS Interview Questions</li>
+                <li>Java Interview Questions</li>
+                <li>HTML Interview Questions</li>
+                <li>JavaScript Interview Questions</li>
+                <li>Advanced Java Interview Questions</li>
+                <li>HTML5 and CSS Interview Questions</li>       
+            </ul>
+        </div>
+        <div class="ms-2" style="width: 220px;">
+            <div class="footer-title">HYDERABAD MAIN CAMPUS</div>
+            <ul class=" list-unstyled">
+                <li>Add: 2nd Floor, Durga Bhavani Plaza,</li>
+                <li>Ameerpet, Hyderabad</li>
+                <li>Ph : 040-2374 6666 / 2373 4842</li>
+                <li>Email : support@nareshit.com</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>For Online Training:</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>Call/Whatsapp:  +91-8179191999
+                 Email: onlinetraining@nareshit.com</li>                   
+            </ul>
+        </div>
+        <div class="" style="height: 330px;">
+            <div class="footer-title mb-4" style="margin-left: 10px;">ABOUT NARESH I TECHNOLOGIES</div>
+            <ul class="mt-4 p-2">
+                <li class="list-unstyled">
+                    <div class=" mb-4 mt-4" style="font-size: 22px;" id="icons">
+                        <span class="bi bi-facebook p-2 ms-2 me-2 bg-white text-danger rounded rounded-3" id="icon"></span>
+                        <span class="bi bi-envelope p-2 me-2 bg-white text-danger rounded rounded-3"></span>
+                        <span class="bi bi-linkedin p-2 me-2 bg-white text-danger rounded rounded-3"></span>
+                        <span class="bi bi-twitter p-2 me-2 bg-white text-danger rounded rounded-3"></span>
+                        <span class="bi bi-youtube p-2 me-2 bg-white text-danger rounded rounded-3"></span>
+                    </div>
+                </li>
+                <div class="mt-4 p-1" >   
+                <li class="footer-title list-unstyled mt-4">JOIN OUR TELEGRAM – GET UPDATES</li>
+            </div>
+                <li>NareshIT Official Channel</li>
+                <li>Python | JAVA | AWS | DevOps |  Data Science</li>                  
+            </ul>
+        </div>
+    </div>
+    <div class=" rounded-3 text-white" style="font-size: 12px; width: 1500px; margin-right: 400px;" id="foot">
+        <span style="margin-left: 140px;">We use cookies to give you the best possible experience while you browse through our website. By pursuing the use of our website you implicitly agree to the usage of cookies on this site.</span>
+        <button class="p-2  rounded-3 text-white" style="width: 80px;">Got it!</button>
+    </div>
+   <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
